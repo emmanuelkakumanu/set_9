@@ -10,7 +10,7 @@ class Ideone
 		float l=s.nextFloat();
 		float b=s.nextFloat();
 		float area=l*b;
-		System.out.print(area);
+		System.out.printf("%.5f",area);
 		
 	}
 }
