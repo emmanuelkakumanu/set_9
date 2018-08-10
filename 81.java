@@ -9,12 +9,13 @@ class Ideone
 		Scanner s=new Scanner(System.in);
 		int k=s.nextInt();
 		int o=s.nextInt();
-		if(k<o)
+		System.out.print(Math.abs(k-o));
+		/*if(k<o)
 		{
 			System.out.print(o-k);
 		}
 		else
-		System.out.print("Invalid");
+		System.out.print("Invalid");*/
 		
 	}
 }
