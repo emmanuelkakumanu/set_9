@@ -14,7 +14,7 @@ class Ideone
 		}
 		else
 		{
-		for(int i=1;i<m*n;i++)
+		for(int i=1;i<=m*n;i++)
 		{
 			if(i%n==0 && i%m==0)
 			{
