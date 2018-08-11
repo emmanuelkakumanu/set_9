@@ -2,15 +2,16 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
+/* Name of the class has to be "Main" only if the class is public. */
 class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		Scanner s=new Scanner(System.in);
-		float l=s.nextFloat();
-		float b=s.nextFloat();
-		float area=l*b;
-		System.out.printf("%.5f",area);
 		
+		Scanner s=new Scanner(System.in);
+		double l=s.nextFloat();
+		double b=s.nextFloat();
+		double area=l*b;
+		System.out.printf("%.5f",area);
 	}
 }
